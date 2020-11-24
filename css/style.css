@@ -192,6 +192,7 @@ header .header-right img {
 .section-stats .stats-detail h4 {
   font-size: 32px;
   font-weight: bold;
+  text-align: center;
 }
 
 .section-stats .stats-detail p {
