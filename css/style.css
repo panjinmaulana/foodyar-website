@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #fff;
+  color: #272042;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.navbar-brand img {
+  max-height: 28px;
+  margin-right: 10px;
+  margin-bottom: 7px;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #8b8ba5;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: #272042 !important;
+}
+
+.btn-my-kitchen {
+  background-color: #fbe0dc;
+  color: #272042;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 30px 30px 20px 20px;
+}
+
+.btn-my-kitchen:hover {
+  background-color: #272042;
+  color: #fbe0dc;
+  border: 0;
+}
+
+header .header-left {
+  padding: 125px 100px 0 47px;
+}
+
+header .header-left h1 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+header .header-left h1 span {
+  -webkit-text-decoration: underline 8px solid #fbe0dc;
+          text-decoration: underline 8px solid #fbe0dc;
+}
+
+header .header-left p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8b8ba5;
+}
+
+header .header-left .btn-decide-a-menu {
+  font-size: 18px;
+  font-weight: 500;
+  color: #272042;
+  background-color: #f7c531;
+  border-radius: 30px 30px 20px 20px;
+  border: 0;
+}
+
+header .header-left .btn-decide-a-menu:hover {
+  color: #f7c531;
+  background-color: #272042;
+  border: 0;
+}
+
+header .header-right {
+  padding: 85px 165px 0 0;
+}
+
+header .header-right img {
+  width: 550px;
+  height: 350px;
+  background-size: cover;
+}
+
+.section-special-title {
+  margin-top: 100px;
+}
+
+.section-special-title .section-title .h6 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8b8ba5;
+}
+
+.section-special-title .section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section-special-tab {
+  margin-top: 30px;
+}
+
+.section-special-tab a {
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #272042;
+  text-decoration: none;
+}
+
+.section-special-tab a.active {
+  color: #f7c531;
+  border-bottom: 2px solid #f7c531;
+}
+
+.section-special-content {
+  margin-top: 50px;
+}
+
+.section-special-content .section-special-food .card-food .food-menu img {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+}
+
+.section-special-content .section-special-food .card-food .food-item {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.section-special-content .section-special-food .card-food .food-username {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8b8ba5;
+}
+
+.section-special-content .section-special-food .card-food .food-stars img {
+  width: 126px;
+  height: 22px;
+}
+
+.section-testimonial {
+  margin-top: 150px;
+  position: relative;
+}
+
+.section-testimonial .icon-testi {
+  width: 150px;
+  position: absolute;
+  top: -35px;
+  left: 120px;
+  z-index: -1;
+}
+
+.section-testimonial p {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.section-testimonial .testimonial-user {
+  margin-top: 20px;
+}
+
+.section-testimonial .testimonial-user img {
+  width: 90px;
+  height: 86px;
+  float: left;
+  margin-right: 5px;
+}
+
+.section-testimonial .testimonial-user h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.section-testimonial .testimonial-user p {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #8b8ba5;
+}
+
+.section-stats {
+  margin-top: 100px;
+}
+
+.section-stats .stats-detail h4 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.section-stats .stats-detail p {
+  font-size: 20px;
+  font-weight: normal;
+  color: #8b8ba5;
+  text-align: center;
+}
+
+.section-app {
+  margin-top: 100px;
+}
+
+.section-app .app-left img {
+  width: 428px;
+  height: 538px;
+}
+
+.section-app .app-right {
+  margin-top: 100px;
+}
+
+.section-app .app-right h4 {
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-app .app-right h4 span {
+  -webkit-text-decoration: underline 8px solid #fbe0dc;
+          text-decoration: underline 8px solid #fbe0dc;
+}
+
+.section-app .app-right p {
+  font-size: 20px;
+  font-weight: normal;
+  color: #8b8ba5;
+  margin-bottom: 20px;
+}
+
+.section-app .app-right img {
+  width: 168.69px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.section-footer {
+  margin-top: 150px;
+}
+
+.section-footer .footer-brand {
+  font-size: 28px;
+  font-weight: 500;
+  color: #272042;
+}
+
+.section-footer .footer-brand img {
+  max-height: 28px;
+  margin-right: 10px;
+  margin-bottom: 7px;
+}
+
+.section-footer h5 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.section-footer a {
+  font-size: 18px;
+  font-weight: normal;
+  color: #8b8ba5;
+  text-decoration: none;
+}
+
+.section-footer a:hover {
+  color: #272042;
+  text-decoration: underline;
+}
+
+.section-footer .text-copyright {
+  font-size: 16px;
+  font-weight: normal;
+  color: #8b8ba5;
+}
+
+@media (max-width: 576px) {
+  .section-testimonial .testimonial-user h3 {
+    text-align: center;
+  }
+  .section-testimonial .testimonial-user p {
+    text-align: center;
+  }
+  .section-stats {
+    margin-top: 100px;
+  }
+  .section-stats .stats-detail h4 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .section-app {
+    margin-top: 100px;
+  }
+  .section-app .app-left img {
+    width: 428px;
+    height: 538px;
+  }
+  .section-app .app-right {
+    margin-top: 100px;
+  }
+  .section-app .app-right h4 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .section-app .app-right h4 span {
+    -webkit-text-decoration: underline 4px solid #fbe0dc;
+            text-decoration: underline 4px solid #fbe0dc;
+  }
+  .section-app .app-right p {
+    font-size: 15px;
+    font-weight: normal;
+    color: #8b8ba5;
+    margin-bottom: 20px;
+  }
+  .section-app .app-right img {
+    width: 168.69px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  .section-footer {
+    text-align: center;
+  }
+  .section-footer .footer-brand img {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
